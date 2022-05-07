@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UniEaseCopy/Editor/UXML/Index.uss?fileID=7433441132597879392&amp;guid=2014721a7acd5414e89e237b2fa6787f&amp;type=3#Index" />
+    <ui:VisualElement style="justify-content: space-between;">
+        <ui:VisualElement name="ButtonContainer" style="flex-direction: row; margin-bottom: 5px; margin-top: 5px; padding-left: 5px; min-height: 40px;">
+            <ui:VisualElement class="ButtonContainer" style="flex-grow: 1;">
+                <ui:Label text="Copy" display-tooltip-when-elided="true" class="Title" />
+                <ui:Button text="Copy" display-tooltip-when-elided="true" name="CopyButton" style="padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement class="ButtonContainer" style="flex-grow: 2;">
+                <ui:Label text="Paste" display-tooltip-when-elided="true" class="Title" />
+                <ui:VisualElement style="flex-direction: row;">
+                    <ui:Button text="Ease" display-tooltip-when-elided="true" name="PasteEaseButton" style="padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0; flex-grow: 1;" />
+                    <ui:Button text="Value" display-tooltip-when-elided="true" name="PasteValueButton" focusable="false" style="padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0; flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="LogContainer" style="min-height: 40px;">
+            <ui:VisualElement name="LogBackground" style="padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px;">
+                <ui:Label text="Log" display-tooltip-when-elided="true" name="LogTypeText" class="LogTypeLog" style="-unity-text-align: middle-center; margin-bottom: 5px;" />
+                <ui:Label text="The selected keyframe belongs to multiple curves." display-tooltip-when-elided="true" name="LogMessageText" style="align-items: flex-start; white-space: normal; padding-left: 5px; padding-right: 5px; min-height: 12px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="InfoContainer" style="margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px;">
+            <ui:VisualElement name="CopiedKeyInfo">
+                <ui:Label text="Copied Keyframes: 4" display-tooltip-when-elided="true" name="CopiedKeyframeLabel" class="Title" />
+                <ui:VisualElement style="background-color: rgb(63, 62, 62); padding-top: 2px; padding-bottom: 2px; padding-left: 2px; padding-right: 2px;">
+                    <ui:ListView name="CopiedKeyframeList" selection-type="None" virtualization-method="DynamicHeight" style="margin-top: 5px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

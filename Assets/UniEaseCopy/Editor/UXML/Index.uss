@@ -1,0 +1,26 @@
+.LogTypeSuccess {
+    background-color: rgb(2, 128, 0);
+}
+
+.LogTypeError {
+    background-color: rgb(144, 0, 0);
+}
+
+.LogTypeWarning {
+    background-color: rgb(120, 117, 0);
+}
+
+.LogTypeLog {
+    background-color: rgb(24, 24, 24);
+}
+
+.Title {
+    background-color: rgb(26, 26, 26);
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.ButtonContainer {
+    padding-right: 5px;
+}

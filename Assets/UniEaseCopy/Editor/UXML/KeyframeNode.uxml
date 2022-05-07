@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement>
+        <ui:Label text="time: 0.55, value: 88.45061, inTan: -506.6113, outTan: -506.6113, inWei: 0.3333333, outWei: 0.05828521, leftTanMode: Free, rightTanMode: Free, weightedMode: None" display-tooltip-when-elided="true" style="white-space: normal; color: rgb(174, 174, 174);" />
+    </ui:VisualElement>
+</ui:UXML>
