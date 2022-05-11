@@ -1,3 +1,5 @@
+README in English is [Here](https://github.com/shutosg/UniEaseCopy/blob/master/README_EN.md).
+
 # UniEaseCopy
 
 UniEaseCopy は、 Unity の Animation キーフレームをカーブの形状を維持した状態でコピー&ペーストできるエディタ拡張です。
@@ -46,5 +48,4 @@ PackageManager の `Add package from git URL` に `https://github.com/shutosg/Un
 
 ## License
 
-MIT
-ライセンスです。
+MIT ライセンスです。
