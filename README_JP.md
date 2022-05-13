@@ -1,5 +1,7 @@
 # UniEaseCopy
 
+[![openupm](https://img.shields.io/npm/v/net.shutosg.uni-ease-copy?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/net.shutosg.uni-ease-copy/)
+
 UniEaseCopy は、 Unity の Animation キーフレームをカーブの形状を維持した状態でコピー&ペーストできるエディタ拡張です。
 
 ## Demo
@@ -36,9 +38,35 @@ PlayerSettings の `Scripting Define Symbols` に `UNIEASECOPY_USE_MENU_ITEM` �
 
 ## Installation
 
-PackageManagerよりプロジェクトに追加して使用できます。
+3つの方法でプロジェクトに追加して使用できます。
 
-### from git URL
+### 1. Scoped registory
+
+ProjectSettings の `PackageManager` より以下の scoped registory を追加することで、 PackageManager の `My Registories` に表示されます。
+
+![image](https://user-images.githubusercontent.com/6266016/168285937-41510ac6-bbd8-4bf8-88e8-ecdb8a0aecb2.png)
+
+```json
+{
+    "name": "shutosg",
+    "url": "https://package.openupm.com",
+    "scopes": [
+        "net.shutosg"
+    ]
+}
+```
+
+![image](https://user-images.githubusercontent.com/6266016/168287158-616e7faa-4b10-42c7-abcc-0f47e7172d54.png)
+
+### 2. OpenUPM
+
+[OpenUPM](https://openupm.com/) のCLIツールを用いてパッケージを追加できます
+
+```shell
+openupm add net.shutosg.uni-ease-copy
+```
+
+### 3. from git URL
 
 ![image](https://user-images.githubusercontent.com/6266016/167906590-0358137f-83bc-4d5a-981f-6eb867c261c9.png)
 

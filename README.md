@@ -1,5 +1,7 @@
 # UniEaseCopy
 
+[![openupm](https://img.shields.io/npm/v/net.shutosg.uni-ease-copy?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/net.shutosg.uni-ease-copy/)
+
 **日本語は [こちら](https://github.com/shutosg/UniEaseCopy/blob/master/README_JP.md)**
 
 UniEaseCopy is an Editor Tool that allows you to copy and paste Unity Animation keyframes while preserving the curve shape.
@@ -32,15 +34,41 @@ The explanations of the panel are following.
 
 ### 2. Menu
 
-You can also control the menu by adding `UNIEASECOPY_USE_MENU_ITEM` to `Scripting Define Symbols` in PlayerSettings.
+You can also show the menu by adding `UNIEASECOPY_USE_MENU_ITEM` to `Scripting Define Symbols` in PlayerSettings.
 
 ![image](https://user-images.githubusercontent.com/6266016/167912822-51d1789c-ce40-4de1-a208-99a73e2deec6.png)
 
 ## Installation
 
-You can add it to your project from PackageManager.
+There are 3 ways to add this package to your project.
 
-### from git URL
+### 1. Scoped registory
+
+By adding the following scoped registory from `PackageManager` in ProjectSettings, this package will appear in `My Registories` in PackageManager.
+
+![image](https://user-images.githubusercontent.com/6266016/168285937-41510ac6-bbd8-4bf8-88e8-ecdb8a0aecb2.png)
+
+```json
+{
+    "name": "shutosg",
+    "url": "https://package.openupm.com",
+    "scopes": [
+        "net.shutosg"
+    ]
+}
+```
+
+![image](https://user-images.githubusercontent.com/6266016/168287158-616e7faa-4b10-42c7-abcc-0f47e7172d54.png)
+
+### 2. OpenUPM
+
+You can add this package using the [OpenUPM](https://openupm.com/) CLI tool.
+
+```shell
+openupm add net.shutosg.uni-ease-copy
+```
+
+### 3. from git URL
 
 ![image](https://user-images.githubusercontent.com/6266016/167906590-0358137f-83bc-4d5a-981f-6eb867c261c9.png)
 
