@@ -1,6 +1,6 @@
 {
   "author": "shutosg",
-  "name": "net.shutosg.unity-ease-copy",
+  "name": "net.shutosg.uni-ease-copy",
   "displayName": "UniEaseCopy",
   "version": "1.0.0",
   "unity": "2019.4",
@@ -9,5 +9,6 @@
   "keywords": [
     "Animation",
     "Utility"
-  ]
+  ],
+  "license": "MIT"
 }
