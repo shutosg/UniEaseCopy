@@ -18,8 +18,10 @@ namespace net.shutosg.UniEaseCopy
         [MenuItem("Window/Animation/UniEaseCopy")]
         public static void ShowWindow()
         {
-            var window = GetWindow<UniEaseCopyWindow>();
+            var openedWindows = (EditorWindow[])Resources.FindObjectsOfTypeAll(typeof(UniEaseCopyWindow));
+            var window = openedWindows.Length == 0 ? CreateInstance<UniEaseCopyWindow>() : openedWindows[0];
             window.titleContent = new GUIContent("UniEaseCopy");
+            window.ShowUtility();
         }
 
         private static T LoadAsset<T>(string assetName) where T : Object
