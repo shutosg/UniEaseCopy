@@ -177,6 +177,7 @@ namespace net.shutosg.UniEaseCopy
                 }
             }
             animEditor.SaveChangedCurvesFromCurveEditor("Paste Ease (UniEaseCopy)");
+            animEditor.OwnerWindow.Repaint();
             LogUtil.LogSuccess("Pasted \"Ease\".", onLogged);
         }
 
@@ -278,6 +279,7 @@ namespace net.shutosg.UniEaseCopy
                 targetCurve.Changed = true;
             }
             animEditor.SaveChangedCurvesFromCurveEditor("Paste Value (UniEaseCopy)");
+            animEditor.OwnerWindow.Repaint();
             LogUtil.LogSuccess("Pasted \"Value\".", onLogged);
         }
 
