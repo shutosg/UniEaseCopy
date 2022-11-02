@@ -1,14 +1,17 @@
-# UniEaseCopy
-
-[![openupm](https://img.shields.io/npm/v/net.shutosg.uni-ease-copy?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/net.shutosg.uni-ease-copy/)
-
-**日本語は [こちら](https://github.com/shutosg/UniEaseCopy/blob/master/README_JP.md)**
+# UniEaseCopy Document
 
 UniEaseCopy is an Editor Tool that allows you to copy and paste Unity Animation keyframes while preserving the curve shape.
 
+## Contents
+
+1. Demo
+2. Usage
+3. Installation
+4. License
+
 ## Demo
 
-![UniEaseCopy](https://user-images.githubusercontent.com/6266016/167908285-3bf3886d-7b09-40b3-b1f9-726ced2ea2cf.gif)
+[Demonstration](https://user-images.githubusercontent.com/6266016/167908285-3bf3886d-7b09-40b3-b1f9-726ced2ea2cf.gif)
 
 ## Usage
 
